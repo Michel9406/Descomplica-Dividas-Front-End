@@ -1,37 +1,43 @@
-import React from 'react'
-
 function Home() {
     return (
         <>
-            <div style={{
-                width: "100vw",
-                display: "flex",
-                justifyContent: "center"
-            }}>
-                <div>
-                    <div style={{
-                         width: "80vw",
-                         display: "flex",
-                         flexDirection: "column",
-                         alignItems: "center"
-                    }}>
-                        <h2>Seja Bem Vindo!</h2>
-                        <p>Descomplicamos sua vida financeira
-Na Descomplica Dívidas, acreditamos que todo mundo merece uma segunda chance para recomeçar com tranquilidade e dignidade. Por isso, criamos uma plataforma simples, segura e acessível para ajudar brasileiros a renegociarem suas dívidas e retomarem o controle da sua vida financeira.
+            <div className="bg-white flex justify-center mt-10">
+                <div className='container grid grid-cols-2 text-black'>
+                    <div className="flex flex-col gap-4 items-center justify-center py-2">
+                        <h2 className='text-5xl font-bold text-left'>
+                            Descomplique suas<br />
+                            dívidas <span className="text-blue-600 relative inline-block">
+                                em poucos cliques!
+                                <div className="h-1 bg-orange-400 w-full mt-1 rounded"></div>
+                            </span>
+                        </h2>
+                        <p className='text-x text-orange-400 font-semibold'>
+                            Descomplique suas dívidas em poucos cliques<br />
+                            Negocie com segurança, pague com tranquilidade e volte a ter o controle da sua vida financeira.
+                        </p>
 
-Nosso objetivo é claro: facilitar o acesso à negociação de dívidas, oferecendo soluções personalizadas, com condições justas e sem burocracia. Tudo 100% online, rápido e transparente.</p>
+                        <div className="flex flex-col items-center gap-2 w-full max-w-md">
+                            <label htmlFor="cpf" className="font-semibold text-lg mb-2"></label>
+                            <input
+                                id="cpf"
+                                type="text"
+                                placeholder=" Digite seu CPF"
+                                className="rounded-xl border border-gray-600 px-6 py-3 w-150 focus:outline-none focus:ring-2 focus:ring-orange-400 text-lg"
+                                maxLength={14}
+                            />
+                            <button
+                                className="rounded-xl text-black bg-orange-500 hover:bg-orange-300 hover:text-orange-500 transition-all duration-300 cursor-pointer 
+                                           border-none py-3 px-6 w-150 mt-2 text-lg font-bold"
+                            >
+                                Consultar meu CPF gratis
+                            </button>
+                        </div>
                     </div>
-
-                    <div style={{
-                         width: "80vw",
-                         display: "flex",
-                         flexDirection: "column",
-                         alignItems: "center"
-                    }}>
-                        <img 
-                            src="https://www.figma.com/design/HsSCFtiLmHnUhd33kY3E83/descomplica-d%C3%ADvidas?node-id=18-427&t=i0aHMec68UvQR17F-4" 
-                            alt="Imagem da Página Home" 
-                            width="500px"
+                    <div className="flex justify-center">
+                        <img
+                            src="https://i.imgur.com/bKRnHcp.png"
+                            alt="Imagem Página Home"
+                            className='w-2/3 h-full'
                         />
                     </div>
                 </div>
