@@ -14,9 +14,8 @@ function Navbar() {
                             <li className="hover:text-orange-400 cursor-pointer transition-colors">Sobre nós</li>
                             <li className="hover:text-orange-400 cursor-pointer transition-colors">Blog</li>
                             <li
-                                className="rounded-xl bg-orange-400 text-white px-5 py-2 font-semibold cursor-pointer transition-all
-                                           hover:bg-orange-100 hover:text-orange-500 border-none"
-                            >
+                                className="rounded-xl bg-orange-400 text-black px-5 py-2 font-semibold cursor-pointer transition-all
+                                           hover:bg-orange-100 hover:text-orange-500 border-none">
                                 Consultar Dívidas
                             </li>
                         </ul>

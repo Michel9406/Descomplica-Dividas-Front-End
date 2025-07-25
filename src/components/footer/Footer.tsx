@@ -14,7 +14,7 @@ function Footer() {
             >
                 <div className="container flex flex-col items-center py-1 gap-4">
                     <p className='text-base font-bold'>
-                        Descomplica Dividas | Copyright: {data}
+                       {data}- Descomplica Dividas | Copyright: 
                     </p>
                     <p className='text-sm font-semibold'>Acesse nossas redes sociais</p>
                     <div className='flex gap-6'>
