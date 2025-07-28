@@ -11,7 +11,7 @@ function Home() {
                                 <div className="h-1 bg-orange-400 w-full mt-1 rounded"></div>
                             </span>
                         </h2>
-                        <p className='text-x text-orange-400 font-semibold'>
+                        <p className='text-x text-black-400 font-semibold'>
                             Descomplique suas dívidas em poucos cliques<br />
                             Negocie com segurança, pague com tranquilidade e volte a ter o controle da sua vida financeira.
                         </p>
@@ -26,7 +26,7 @@ function Home() {
                                 maxLength={14}
                             />
                             <button
-                                className="rounded-xl text-black bg-orange-500 hover:bg-orange-300 hover:text-orange-500 transition-all duration-300 cursor-pointer 
+                                className="rounded-xl text-black bg-orange-400 hover:bg-orange-300 hover:text-orange-500 transition-all duration-300 cursor-pointer 
                                            border-none py-3 px-6 w-150 mt-2 text-lg font-bold"
                             >
                                 Consultar meu CPF gratis

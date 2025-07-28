@@ -10,7 +10,7 @@ function Footer() {
             <div
 
                 className="fixed bottom-0 left-0 w-full flex justify-center  text-black"
-                style={{ marginTop: '40px' }}
+                style={{ marginTop: '20px' }}
             >
                 <div className="container flex flex-col items-center py-1 gap-4">
                     <p className='text-base font-bold'>
