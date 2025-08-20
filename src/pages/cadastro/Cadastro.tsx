@@ -94,7 +94,7 @@ function Cadastro() {
           <div className="flex justify-start w-full gap-8 ">
             <button
               type="reset"
-               className="rounded-xl border-1 border-orange-400 text-white bg-orange-400 hover:bg-orange-100 hover:text-orange-500 w-1/2 py-2 transition-all cursor-pointer"
+              className="rounded-xl border-1 border-orange-400 text-white bg-orange-400 hover:bg-orange-100 hover:text-orange-500 w-1/2 py-2 transition-all cursor-pointer"
             >
               Continuar
             </button>

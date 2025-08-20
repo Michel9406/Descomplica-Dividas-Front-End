@@ -7,7 +7,7 @@ function Navbar() {
             <div className='w-full flex justify-center py-2  text-black'>
                 <div className="container flex justify-between items-center text-lg">
                     <div className="flex items-center gap-4">
-                       <Link to='/home' className=""><img src={logo} alt="Logo" className="w-45 h-15" /></Link>  
+                        <Link to='/home' className=""><img src={logo} alt="Logo" className="w-45 h-15" /></Link>
                     </div>
                     <nav>
                         <ul className='flex gap-10 justify-center items-center'>
