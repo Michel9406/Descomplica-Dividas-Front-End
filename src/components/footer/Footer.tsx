@@ -5,7 +5,7 @@ function Footer() {
 
     return (
         <>
-            <hr className="border-gray-300 border-t w-full" />
+            <hr className="border-gray-300 border-t w-full mt-10" />
             <div
                 className="w-full flex justify-center bg-orange-100 text-black"
             >

@@ -37,7 +37,7 @@ function Home() {
                         <img
                             src="https://i.imgur.com/bKRnHcp.png"
                             alt="Imagem Página Home"
-                            className='w-2/3 h-full'
+                            className='w-2/ h-full'
                         />
                     </div>
                 </div>

@@ -17,9 +17,9 @@ function Cadastro() {
       <div className="grid grid-cols-1 lg:grid-cols-2 h-screen font-bold">
         {/* Formulário do lado esquerdo */}
         <form className="flex flex-col justify-center items-start w-full max-w-lg  px-5">
-          <h1 className="text-slate-900 text-5xl mb-4 mt-16 whitespace-nowrap ">Complete seu Cadastro</h1>
+          <h1 className="text-slate-900 text-5xl mb-4 mt-10 whitespace-nowrap ">Complete seu Cadastro</h1>
 
-          {/* Inputs um embaixo do outro */}
+          {/* container de cadastro  */}
           <div className="flex flex-col w-full max-w-3xl border-2 border-orange-400 rounded-2xl p-8 shadow gap-3 px-5">
             <div className="flex flex-col">
               <label htmlFor="nomeCompleto">Nome Completo</label>
@@ -94,14 +94,14 @@ function Cadastro() {
           <div className="flex justify-start w-full gap-8 ">
             <button
               type="reset"
-              className="rounded-xl border-1 border-orange-400 text-white bg-orange-400 hover:bg-orange-100 hover:text-orange-500 w-1/2 py-2 transition-all"
+               className="rounded-xl border-1 border-orange-400 text-white bg-orange-400 hover:bg-orange-100 hover:text-orange-500 w-1/2 py-2 transition-all cursor-pointer"
             >
               Continuar
             </button>
           </div>
         </form>
         {/* Imagem do lado direito */}
-        <div className="fundoCadastro hidden lg:block"></div>
+        <div className="fundoCadastro hidden lg:block h-[300px] w-[300px] mt-10"></div>
       </div>
     </>
   )
