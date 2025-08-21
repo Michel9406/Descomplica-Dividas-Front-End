@@ -188,10 +188,10 @@ function Cadastro() {
               checked={termos}
               onChange={(e) => setTermos(e.target.checked)}
             />
-            <label htmlFor="termos" className="text-sm font-normal">
+            <label htmlFor="termos" className="text-sm font-normal ">
               Li e concordo com os{' '}
-              <a href="#" className="underline text-orange-500">
-                termos da política de dívidas
+              <a href="#" className="underline text-blue-700">
+                termos da Descomplica Dívidas
               </a>.
             </label>
           </div>
@@ -270,7 +270,7 @@ function Cadastro() {
             <button
               type="button"
               onClick={handleNextStep}
-              className="rounded-xl border-1 border-orange-400 text-white bg-orange-400 hover:bg-orange-100 hover:text-orange-500 w-1/2 py-2 transition-all cursor-pointer"
+              className="rounded-xl border-1 border-orange-400 text-black bg-orange-400 hover:bg-orange-100 hover:text-orange-500 w-1/2 py-2 transition-all cursor-pointer"
             >
               Continuar
             </button>
